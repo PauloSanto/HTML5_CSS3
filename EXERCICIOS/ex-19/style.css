@@ -1,0 +1,17 @@
+@charset "UTF-8";
+p{
+    font-size: 14px;
+    text-align: justify;
+}
+.dir{
+text-align: right;
+}
+.esq{
+text-align: left;
+}
+.meio{
+text-align: center;
+}
+.especial{
+background-color: rgb(185, 185, 115);
+}

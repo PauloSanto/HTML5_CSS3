@@ -1,0 +1,23 @@
+@charset "UTF-8";
+div {
+    display:inline-block; /* exibe uma div ao lado da outra, em linha */
+    width: 200px; /* largura do bloco */
+    height: 200px; /* altura do bloco */
+    background-color: lightgray;
+    border: 1px solid black; /* borda do bloco */
+}
+#area01{
+background-color: red;
+}
+#area02{
+   background-color: green; 
+}
+#area03{
+    background-color: blue;
+}
+#area04{
+    background-color: grey;
+}
+#area05{
+    background-color: cadetblue;
+}

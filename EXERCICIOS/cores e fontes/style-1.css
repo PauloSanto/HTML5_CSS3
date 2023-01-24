@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{ 
+    /*- aqui estou usando uma fonte pre-existente e muito comum */
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #02F2CA, #1268A6);
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(18, 166, 50, 0.747);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h1{
+text-align: center;
+text-shadow: 1px 1px 2px #024911cb;
+color: #05F539;
+}
+h2{
+color: #12A632;
+}
+
+p{
+    text-align: justify;
+}

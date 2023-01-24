@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&family=Roboto:ital@1&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #0AFF42, #49C240);
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #F55C47;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h1{
+    font-family: 'Roboto', sans-serif; 
+text-align: center;
+text-shadow: 1px 1px 2px #85C21D;
+color:#C26525
+}
+h2{
+    font-family: 'Pacifico', cursive;
+color:#8F4A1B
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* Regra charset caso haja problemas com acentuação */
+
+body{
+    background-color:lightblue;
+   } 
+   h1{
+    color:red;
+   }
+   h2{
+    color:blue; 
+    background-color: green
+   }
+   h3{
+    font-family:arial; 
+    color:blue; 
+    text-align: justify;
+   }
+   h4{
+    background-color:yellow; 
+    font-family:arial; 
+    color:green; 
+    text-align: justify;
+   }
+   p{
+    color:blue;
+    text-align:justify;
+   }
+   a{
+    font-family:arial; 
+    color:red; 
+    text-align: justify;
+   }

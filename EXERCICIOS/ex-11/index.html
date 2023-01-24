@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esta imagem em varios </p>
+     
+    <!--_
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/G.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/P.png" alt="imagem flexivel">
+            
+    </picture>
+    _-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="imagem flexivel">
+            
+    </picture>
+
+    <h1> Reproduzindo Aúdio </h1>
+    <p> Vamos aprendera reproduzir audio em HTML 5</p>
+    <audio preload="metadata" autoplay controls>
+        
+        <source src="audio/Jingle Bells v4.mp3" type="audio/mpeg">
+        <source src="audio/Jingle Bells v4.ogg" type="audio/ogg">
+        <source src="audio/Jingle Bells v4.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador não consegue reproduzir audio <a href="audio/Jingle Bells v4.mp3">Clique aqui para baixar o audio mp3</a></p>
+
+
+
+    </audio>
+
+
+</body>
+</html>

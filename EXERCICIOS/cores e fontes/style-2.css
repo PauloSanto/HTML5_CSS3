@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+    /*- aqui estou usando uma fonte baixada do google fonts e instalada em um arquivo */
+    @font-face {
+        font-family: 'Pacifico';
+        src: url(fontes/Pacifico/Pacifico-Regular.ttf) format("ttf");
+        
+    }
+    
+    @font-face {
+        font-family:'Roboto';
+        src: url(fontes/Roboto/Roboto-LightItalic.ttf) 
+    }
+
+    @font-face {
+        font-family: Poppins;
+        src: url(fontes/Poppins/Poppins-ExtraBold.ttf);
+    }
+
+    
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(to right, #7B81F6, #1D51C2);
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(18, 166, 50, 0.747);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+   
+    text-align: center;
+    text-shadow: 1px 1px 2px #85C21D;
+    color: #F5E23D
+}
+h2{
+    font-family: 'Roboto', sans-serif; 
+color:#7D8F5D
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    text-align: justify;
+}

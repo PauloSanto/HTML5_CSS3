@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+    font-family: 'Minha Fonte';
+    src: url('littlebird.ttf');
+}
+
+    #fonte-3{
+        font-family: 'Minha Fonte';
+    }
+    </style>
+
+ </head>
+ <body>
+    <h1>Fontes em CSS</h1>
+    <p>Neste titulo principal foi usada uma fonte do google que foi importada no head do HTML e chamada na folha de estilos do CSS</p>
+    <h2 id="fonte-1">Podemos configurar fontes padrão do sistema</h2>
+    <p>Esta Fonte foi chamada no CSS</p>
+    <h2 id="fonte-2">Ou então usar uma fonte do Google Fonts</h2>
+    <p>Esta Fonte foi chamada no CSS</p>
+    <h2 id="fonte-3">Ou ainda usar um arquivo local de fontes</h2>
+    <p>Esta Fonte foi chamada na tag style no header do HTML, não consegui chamar no CSS</p>
+
+    
+ </body>
+ </html>
