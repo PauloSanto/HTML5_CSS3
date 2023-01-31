@@ -33,8 +33,10 @@ text-decoration: underline;
 
 p{
     padding-left: 50px;
+    padding-bottom: 2em;
     font-size: 1.5em;
     line-height: 1.7em;
+
 
 }
 
@@ -54,18 +56,29 @@ section.normal{
 section.img{
     background-color: darkgray;
     color: white;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
 
 
 }
 section.img > p{
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(0, 0, 0, 0.048);
+    text-shadow: 2px 2px 1px black;
+ 
+ 
+  
 }
 
-.img-1{
+section#img-1{
 
 background-image: url('pacote-d012/imagens/background001.jpg');
-position: center center;
+background-position: right center;
+background-size: cover;
 
+}
+section#img-2{
+    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-size: cover;
 }
 
 body{
