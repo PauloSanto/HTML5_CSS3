@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Passio One" ;
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+  
+}
+@font-face {
+    font-family: "Sriracha";
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+  
+}
+header{
+    font-family: 'Passion One', cursive;
+}
+#link-1{
+    text-decoration: none;
+}
+
+
+body{
+
+font-family: 'Sriracha', cursive;
+
+}
