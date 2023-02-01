@@ -6,23 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas Grandes </title>
     <style>
+          table{
+            border-collapse: collapse;
+            background-size: 500px;
+            position: relative;
+          }
+
+          th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+
+        }
         td{
             border: 1px solid black;
             text-align: center;
             padding: 5px;
 
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding-bottom: 10px;
+            background-color: lightgray;
+        }
+        thead{
+            background-color: beige;
+            font-weight: bold;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: beige;
+        }
+        tbody > tr:nth-child(2n){background-color: lightgrey;
+
+        }
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
     </style>
 </head>
 <body>
     <h1>Tabelas grandes  usando tags especificas </h1>
     <table>
+        <caption>
+            Populacação dos estados do Brasil em 2010 
+
+        </caption>
         <thead>
             <tr>
-                <td>Pos.</td>
-                <td>Unidade federativa</td>
-                <td>População</td>
-                <td>% da pop. total</td>	
+                <th scope="col">Pos.</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População</th>
+                <th scope="col">% da pop. total</th>	
             </tr>
         </thead>
         <tbody>
@@ -72,7 +109,7 @@
                     <td>8</td>
                     <td>Ceará</td>
                     <td>8 452 381</td>
-                    <td><4,3%/td>
+                    <td>4,3%</td>
                 </tr>	 
                 <tr>
                     <td>9</td>
@@ -193,7 +230,7 @@
         </tbody>
         <tfoot>
                 <tr>
-                    <td colspan="4">«Fonte: Cidades (IBGE)». IBGE. População segundo censo de 2010. </td>
+                    <th colspan="4">«Fonte: Cidades (IBGE)». IBGE. População segundo censo de 2010. </th>
                 </tr>
         </tfoot>
     </table>
