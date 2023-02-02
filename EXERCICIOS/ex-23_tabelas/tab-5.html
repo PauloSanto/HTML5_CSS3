@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes </title>
+    <style>
+          table{
+            border-collapse: collapse;
+            background-size: 500px;
+          
+          }
+
+          th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+
+        }
+        caption{
+            font-size: 1.1em;
+            font-weight: bolder;
+            padding-bottom: 10px;
+            
+        }
+        thead{
+            
+            font-weight: bold;
+        }
+      
+        
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .c_uf{
+            background-color: lightgreen;
+        }
+        .c_tot{
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Colgroup em tabelas </h1>
+    <table>
+        <colgroup>
+            <col class="c_pos" >
+            <col class="c_uf" >
+            <col class="c_pop" >
+            <col class="c_tot" >
+         
+        </colgroup>
+        <caption>
+            Populacação dos estados do Brasil em 2010 
+
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Pos.</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População</th>
+                <th scope="col">% da pop. total</th>	
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>1</td>	 
+                    <td>São Paulo</td>
+                    <td>41 262 199</td>		
+                    <td>22,2%</td>
+                </tr>	
+                <tr>
+                    <td> 2</td>
+                    <td>Minas Gerais</td>
+                    <td>19 597 330</td>
+                    <td>10,0%</td>
+                </tr>	
+                <tr>
+                    <td> 3</td>
+                    <td>Rio de Janeiro</td>
+                    <td>15 989 929</td>
+                    <td>8,0%</td>
+                </tr>	
+                <tr>
+                    <td>4</td>
+                    <td>Bahia</td>
+                    <td>14 016 906</td>
+                    <td>7,1%</td>
+                </tr>	
+                <tr>
+                    <td>5</td>
+                    <td>Paraná</td>
+                    <td>10 444 526</td>
+                    <td>5,7%</td>
+                </tr>	
+                <tr>
+                    <td>6</td>
+                    <td> Rio Grande do Sul</td>
+                    <td>10 693 929</td>
+                    <td>5,3%</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Pernambuco</td>
+                    <td>8 796 448</td>
+                    <td>4,4%</td>
+                </tr>	 
+                <tr>
+                    <td>8</td>
+                    <td>Ceará</td>
+                    <td>8 452 381</td>
+                    <td>4,3%</td>
+                </tr>	 
+                <tr>
+                    <td>9</td>
+                    <td>Pará </td>
+                    <td>7 581 051</td>
+                    <td>4,1%</td>
+                    	 	            			</tr>	 
+                <tr>
+                    <td>10</td>
+                    <td>Santa Catarina</td>
+                    <td>6 248 436</td>
+                    <td>3,7%</td>
+                </tr>	
+            </tbody>
+        
+    </table>
+    
+</body>
+</html>
