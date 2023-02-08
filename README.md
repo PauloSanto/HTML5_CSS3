@@ -5,7 +5,7 @@ Alguns sites de exemplo:
 
 https://paulosanto.github.io/HTML5_CSS3/Projetos%20sites/Redes%20Sociais/
 
-https://paulosanto.github.io/HTML5_CSS3/Projetos%20sites/android/
+https://paulosanto.github.io/HTML5_CSS3/Projetos%20sites/android/android.html
 
 https://paulosanto.github.io/HTML5_CSS3/Projetos%20sites/cordel/
 
