@@ -23,7 +23,7 @@ main{
 section#telefone{
     position: absolute;
     top: 54%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%); 
     width: 311px;
     height: 627px;
@@ -37,10 +37,10 @@ width: 267px;
 height: 470px;
 }
 section#redes_sociais{
-    text-align: right;
-    position: relative;
-top: 72px;
-right: 5px;
+position: absolute;
+top: 53%;
+left: 87%;
+transform: translate(-50%, -50%);
     
     
     
