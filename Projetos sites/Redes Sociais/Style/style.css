@@ -38,12 +38,17 @@ height: 470px;
 }
 section#redes_sociais{
     text-align: right;
+    position: relative;
+top: 80px;
+right: 22px;
+    
+    
     
 }
 section#redes_sociais img:hover{
     border: 2px solid hsla(0, 0%, 100%, 0.623);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
-    transition: .3s border .1s;
+    transition: .2s border .1s;
     transform: translate(-3px, -3px);
 }
 
