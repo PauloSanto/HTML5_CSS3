@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 07</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <h2>texto area, datalist, select</h2>
+    <form action="cadastro.php" method="get">
+    <p>
+        <label for="iestado">Estado</label>
+        <select name="estado" id="iestado">estado
+            <option value="" selected >----Escolha----</option>
+            <optgroup label="Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="PR">Parana</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+          
+        </select>
+    </p>
+    <label for="ipr">Profissão</label>
+    <input type="text" name="pr" id="ipr" list="lstprof">
+    <datalist id="lstprof">
+        <option>bancario</option>
+        <option >sargento</option>
+        <option>montador</option>
+        <option>professor</option>
+
+
+    </datalist>
+
+    <p>
+        <label for="imens">mensagem</label> <br>
+        <textarea name="mens" id="imens" cols="30" rows="10"></textarea>
+    </p>
+
+      <p>
+        <input type="reset" value="reset">
+        <input type="submit" value="enviar">
+    </p>
+
+</form>
+    
+</body>
+</html>

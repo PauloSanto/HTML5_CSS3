@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 07</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <h2>color, range, file</h2>
+
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor" >
+            </p>
+            <p>
+                <label for="iran">range:</label>
+                <input type="range" name="ran" id="iran" min="0" max="5" value="3">
+            </p>
+            
+            
+            <p>
+                <label for="ifil">telefone:</label>
+                <input type="file" name="ifil" id="ifil" >
+            </p>
+            <p>
+                <input type="reset" value="reset">
+                <input type="submit" value="enviar">
+            </p>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
