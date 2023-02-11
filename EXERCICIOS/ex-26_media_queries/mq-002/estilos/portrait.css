@@ -2,7 +2,7 @@
 /* CSS portrait*/
 body{
     background-image: url(../imagens/cev-portrait.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
