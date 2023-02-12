@@ -33,15 +33,16 @@ header > h1{
      display: block;
 }
 #ham:hover{
-    background-color: lightslategray;
+    background-color:  rgb(174, 193, 209);
     cursor: pointer;
 }
 menu{
     text-align: center;
     display: none;
+
 }
 menu ul{
-    background-color: lightslategray;
+    background-color:  rgb(174, 193, 209);
     list-style-type: none;
     padding: 1px;
    
