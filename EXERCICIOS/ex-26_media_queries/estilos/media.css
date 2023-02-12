@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*CSS para todas as demais midias*/
+
+/*
+Tipical device breakpoints
+320px — 480px for mobile devices
+481px — 768px for iPads & tablets
+769px — 1024px for small screens like laptop
+1025px — 1200px for large screens like Desktops
+1201px and above for extra large screens like TV
+*/
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    main{
+        background-color: white;
+        border: 3px solid black;
+        border-radius: 15px;
+        width: 400px;
+    }
+    main > h1{
+        font-size: 1.0em;
+    }
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#pc {display: none;}
+    img#print{ display: block;}
+    img#tv{ display: none;}
+    
+}
+
+@media screen and (min-width:481px)and (max-width:768px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone{ display: none;}
+    img#tablet{ display: block;}
+    img#pc {display: none;}
+    img#print{ display: none;}
+    img#tv{ display: none;}
+    
+}
+
+@media screen and (min-width:769px)and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    main > h1{
+        font-size: 2em;
+    }
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#pc {display: block;}
+    img#print{ display: none;}
+    img#tv{ display: none;}
+    
+}
+
+@media screen and (min-width:1201px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    main > h1{
+        font-size: 3em;
+    }
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#pc {display: none;}
+    img#print{ display: none;}
+    img#tv{ display: block;}
+    
+}
+
+
+  
