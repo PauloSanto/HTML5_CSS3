@@ -19,7 +19,7 @@ section#login{
     position: relative;
     top: 50%;
     left: 50%;
-    transform:translate(-50%,-50%);
+   
     background-color: white;
     border-radius: 20px;
     width: 250px;
@@ -29,6 +29,7 @@ section#login{
 
     transition: width 0.3s,  height 0.3s;
     transition-timing-function: ease;
+    transform:translate(-50%,-50%);
 }
 section#login > div#img{
     display: block;
@@ -54,8 +55,8 @@ section#login > div#form{
  .inp{
     border-radius: 7px;
     height: 30px;
+    background-color:  rgb(207, 227, 228);
     transform: translateY(-5px);
-    background-color:  rgb(207, 227, 228);;
  }
  label{
     display: none;
@@ -73,9 +74,7 @@ input[type=submit]{
     margin: auto;
     padding: 5px;
     margin-top: 20px;
- 
-   
-}
+ }
 input[type=submit]:hover{
     background-color:   rgb(146, 173, 155);
     cursor: pointer;
@@ -99,21 +98,15 @@ input[type=submit]:hover{
     text-decoration: none;
     padding-top: 10px;
     margin-top: 15px;
-    
-
 }
 .but:hover{
     background-color:  rgb(146, 173, 155);
     cursor: pointer;
- 
 }
 form > div >i{
-
     font-size: .8em;
     color: white;
- 
-   height: 30px;
-
+    height: 30px;
 }
 .campo{
     background-color:   rgb(38, 129, 122);
@@ -123,12 +116,8 @@ form > div >i{
     border-radius: 5px;
     margin: 5px 0px;
 }
-
-
-
 p{
     text-align:justify;
     padding: 10px;
     text-indent: 10px;font-size: 0.8em;
-
 }

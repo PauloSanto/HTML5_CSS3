@@ -30,7 +30,6 @@ Tipical device breakpoints
     width: 70%;
     height: 600px;
 }
-
 .campo{
     background-color:   rgb(38, 129, 122);
     width: 93%;
@@ -39,7 +38,6 @@ Tipical device breakpoints
     border-radius: 10px;
     margin: 20px;
 }
-
 .inp{
 
     border-radius: 10px;
@@ -53,62 +51,49 @@ h1{
     text-align: center;
    font-size: 2.5em;
    margin-top: 30px;
-  
 }
 p{
     font-size: 1.3em;
     margin-bottom: 20px;
 }
 input[type=submit]{
-   
     margin-top: 40px;
- 
-   
 }
-
    
 }
 @media screen and (min-width:1201px){
     body{
         background-image: linear-gradient(to top, rgb(46, 107, 61), blueviolet);
     }
-
     section#login{
         width: 90vw;
    }
-
    section#login > div#img{
     float: right;
     width: 50%;
     height: 100%;
 }
-
    section#login > div#form{
     height: 600px;
     float: left;
     width: 50%;
 }
-
 h1{
     padding-bottom: 10px;
     text-align: center;
    font-size: 2.5em;
    margin-top: 50px;
-  
 }
 p{
     font-size: 1.5em;
     margin: 30px;
 }
-
  .inp{
-
  border-radius: 10px;
  height: 40px;
  font-size: 1.2em;
  width: 80%;
 }
-
  .campo{
     background-color:   rgb(38, 129, 122);
     width: 93%;
@@ -119,10 +104,7 @@ p{
 }
 
 input[type=submit]{
-   
-    margin-top: 40px;
- 
-   
+       margin-top: 40px;
 }
    
 }
