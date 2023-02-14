@@ -1,0 +1,134 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+section#login{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.767);
+
+    transition: width 0.3s,  height 0.3s;
+    transition-timing-function: ease;
+}
+section#login > div#img{
+    display: block;
+    background: rgb(131, 131, 158) url(../imagens/pexels-natasha-zoellner-14526793.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+  
+    text-align: center;
+   font-size: 2.1em;
+  
+}
+section#login > div#form{
+    font-size: 0.8em;
+    background-color: rgb(38, 129, 122);
+    height: 300px;
+    display: block;
+    text-align: center;
+ }
+ .inp{
+    border-radius: 7px;
+    height: 30px;
+    transform: translateY(-5px);
+    background-color:  rgb(207, 227, 228);;
+ }
+ label{
+    display: none;
+ }
+
+input[type=submit]{
+    display: block;
+    font-size: 1.2em;
+    width: 80%;
+    height: 40px;
+    background-color: rgb(46, 107, 61) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 20px;
+ 
+   
+}
+input[type=submit]:hover{
+    background-color:   rgb(146, 173, 155);
+    cursor: pointer;
+  
+}
+.inp:focus-within{
+    background-color: white;
+}
+
+
+.but{ 
+    display: block;
+    font-size: 1.2em;
+    width: 80%;
+    height: 35px;
+    background-color: white ;
+    color: rgb(21, 51, 29);
+    border: none;
+    border-radius: 5px;
+    margin:auto;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-top: 15px;
+    
+
+}
+.but:hover{
+    background-color:  rgb(146, 173, 155);
+    cursor: pointer;
+ 
+}
+form > div >i{
+
+    font-size: .8em;
+    color: white;
+ 
+   height: 30px;
+
+}
+.campo{
+    background-color:   rgb(38, 129, 122);
+    width: 100%;
+    display: block; 
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+
+
+p{
+    text-align:justify;
+    padding: 10px;
+    text-indent: 10px;font-size: 0.8em;
+
+}
