@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/*CSS para todas as demais midias modo escuro (dark)*/
+
+/*
+Tipical device breakpoints
+320px — 480px for mobile devices
+481px — 768px for iPads & tablets
+769px — 1024px for small screens like laptop
+1025px — 1200px for large screens like Desktops
+1201px and above for extra large screens like TV
+*/
+
+@media screen and (prefers-color-scheme:dark){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    html, body{
+        background-color: blueviolet;
+        width: 100vw;
+        height: 100vh;
+    }
+    main{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+    section#login{
+        position: relative;
+        top: 50%;
+        left: 50%;
+       
+        background-color: white;
+        border-radius: 20px;
+        width: 250px;
+        height: 500px;
+        overflow: hidden;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.767);
+    
+        transition: width 0.3s,  height 0.3s;
+        transition-timing-function: ease;
+        transform:translate(-50%,-50%);
+    }
+    section#login > div#img{
+        display: block;
+        background: rgb(131, 131, 158) url(../imagens/pexels-natasha-zoellner-14526793.jpg);
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    h1{
+      
+        text-align: center;
+       font-size: 2.1em;
+      
+    }
+    section#login > div#form{
+        font-size: 0.8em;
+        background-color: rgb(38, 129, 122);
+        height: 300px;
+        display: block;
+        text-align: center;
+     }
+     .inp{
+        border-radius: 7px;
+        height: 30px;
+        background-color:  rgb(207, 227, 228);
+        transform: translateY(-5px);
+     }
+     label{
+        display: none;
+     }
+    
+    input[type=submit]{
+        display: block;
+        font-size: 1.2em;
+        width: 80%;
+        height: 35px;
+        background-color: rgb(46, 107, 61) ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        border: 2px solid white;
+        margin: auto;
+        padding: 5px;
+        margin-top: 20px;
+     }
+    input[type=submit]:hover{
+        background-color:   rgb(146, 173, 155);
+        cursor: pointer;
+      
+    }
+    .inp:focus-within{
+        background-color: white;
+    }
+    
+    
+    .but{ 
+        display: block;
+        font-size: 1.2em;
+        width: 80%;
+        height: 35px;
+        background-color:  rgb(46, 107, 61);
+        color:  white;
+        border: none;
+        border: 2px solid white;
+        border-radius: 5px;
+        margin:auto;
+        text-decoration: none;
+        padding-top: 10px;
+        margin-top: 15px;
+    }
+    .but:hover{
+        background-color:  rgb(146, 173, 155);
+        cursor: pointer;
+    }
+    form > div >i{
+        font-size: .8em;
+        color: white;
+        height: 30px;
+    }
+    .campo{
+        background-color:   rgb(38, 129, 122);
+        width: 100%;
+        display: block; 
+        height: 30px;
+        border-radius: 5px;
+        margin: 5px 0px;
+    }
+    p{
+        text-align:justify;
+        padding: 10px;
+        text-indent: 10px;font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:768px)and (max-width:1200px) and (prefers-color-scheme:dark) {
+    body{
+        background-image: linear-gradient(to top, rgb(46, 107, 61), blueviolet);
+    }
+   section#login{
+        width: 90vw;
+        height: 400px;
+   }
+   section#login > div#img{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+   section#login > div#form{
+    float: right;
+    width: 70%;
+    height: 600px;
+}
+.campo{
+    background-color:   rgb(38, 129, 122);
+    width: 93%;
+    display: block; 
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.inp{
+
+    border-radius: 10px;
+    height: 40px;
+    font-size: 1.2em;
+    width: 80%;
+   }
+
+h1{
+    padding-bottom: 10px;
+    text-align: center;
+   font-size: 2.5em;
+   margin-top: 30px;
+}
+p{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+input[type=submit]{
+    margin-top: 40px;
+    border: 2px solid white;
+}
+   
+}
+@media screen and (min-width:1201px) and (prefers-color-scheme:dark){
+    body{
+        background-image: linear-gradient(to top, rgb(46, 107, 61), blueviolet);
+    }
+    section#login{
+        width: 90vw;
+   }
+   section#login > div#img{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+   section#login > div#form{
+    height: 600px;
+    float: left;
+    width: 50%;
+}
+h1{
+    padding-bottom: 10px;
+    text-align: center;
+   font-size: 2.5em;
+   margin-top: 50px;
+}
+p{
+    font-size: 1.5em;
+    margin: 30px;
+}
+ .inp{
+ border-radius: 10px;
+ height: 40px;
+ font-size: 1.2em;
+ width: 80%;
+}
+ .campo{
+    background-color:   rgb(38, 129, 122);
+    width: 93%;
+    display: block; 
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+input[type=submit]{
+       margin-top: 40px;
+}
+   
+}
+    
+
+
+
+  

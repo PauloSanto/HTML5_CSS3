@@ -66,7 +66,7 @@ input[type=submit]{
     display: block;
     font-size: 1.2em;
     width: 80%;
-    height: 40px;
+    height: 35px;
     background-color: rgb(46, 107, 61) ;
     color: white;
     border: none;
@@ -90,8 +90,8 @@ input[type=submit]:hover{
     font-size: 1.2em;
     width: 80%;
     height: 35px;
-    background-color: white ;
-    color: rgb(21, 51, 29);
+    background-color: rgb(46, 107, 61) ;
+    color: white;
     border: none;
     border-radius: 5px;
     margin:auto;
