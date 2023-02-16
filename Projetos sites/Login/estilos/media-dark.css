@@ -11,7 +11,7 @@ Tipical device breakpoints
 1201px and above for extra large screens like TV
 */
 
-@media screen and (prefers-color-scheme:dark){
+@media screen and (prefers-color-scheme: dark){
 
     *{
         margin: 0px;
